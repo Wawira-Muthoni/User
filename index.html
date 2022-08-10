@@ -12,30 +12,35 @@
 <body>
  
 <div class="container">
-   <h1>
-    <input type="class"name="HopperLab" value="">
-    <input type="subject"name="JavaScript" value="">
-    <input type="date"name="date" value="">
-   </h1>
-
- 
+    <div class="container">
+        <form class="form" id="form">
+            <div class="formform">
+                <label >Class</label>
+                <input type="text" placeholder="enter class" id="class">
+            </div>
+            <form class="form" id="form">
+                <div class="formform">
+                    <label >subject</label>
+                    <input type="text" placeholder="Enter Subject" id="Subject">
+                </div>
+                <form class="form" id="form">
+                    <div class="formform">
+                        <label >date</label>
+                        <input type="number" placeholder="Enter the date" id="Date">
+                    </div>
+                    <button type="button" onclick="myFunction()">submit</button>
 </div>
-<script>
-</script>
+<script src="index.js"></script>
 </body>
 </html>
 
 
 
-<!-- Create a html page that accepts the 
-following inputs and displayed the output to 
-the user AFTER all inputs have been 
-submitted.
-Your function will need these inputs:
-● Class
-● Subject
-● Date
-And these inputs to the function and output it as a fully-formed quiz 
-implement a callback
-what will the code below output to the console and why?
-how has the identifier been used?-->
+Q3. outer func:  this.name = bar
+outer func:  self.name = bar
+inner func:  this.name = undefined
+inner func:  self.name = bar
+The "this" keyword is used to obtain value assigned
+to property name.
+
+Q4. The identifier this is used  to refer to the object  created.

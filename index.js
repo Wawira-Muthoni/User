@@ -13,6 +13,3 @@ var hopperLab = {
 
 hopperLab.func();
 
-var JavaScript = {
-    
-}
